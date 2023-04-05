@@ -1,7 +1,7 @@
 package ar.edu.unlam.pb1.finalAgosto;
 
 public class Contacto {
-	
+	private String nombre;
 	/*
 	 * Se deben incorporar los atributos necesarios.
 	 * 
@@ -36,5 +36,15 @@ public class Contacto {
 		
 		return "";
 	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	
+	
 	
 }
