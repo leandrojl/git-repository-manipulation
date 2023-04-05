@@ -28,7 +28,7 @@ public class Contacto {
 		/*
 		 * Registra una nueva llamada asociada al contacto actual.
 		 */
-		return false;
+		return false;   
 	}
 	
 	public String toString() {
@@ -40,7 +40,7 @@ public class Contacto {
 	}
 
 	public String getNombre() {
-		return nombre;
+		return nombre.toLowerCase();
 	}
 
 	public void setNombre(String nombre) {
