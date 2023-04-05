@@ -40,7 +40,7 @@ public class Contacto {
 	}
 
 	public String getNombre() {
-		return nombre.toLowerCase();
+		return nombre;
 	}
 
 	public void setNombre(String nombre) {
